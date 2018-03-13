@@ -1,0 +1,133 @@
+
+<!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Plug it</h1>
+      <p>Welcome to plug it. Here you can search which cafes have a plug source in Galway city!</p>
+      <div class="btn-group">
+        <input type="text" id="w1" class="form-control" placeholder="Search">
+        <div class="jumbotron1" style = "float: middle;">
+        <button class="btn btn-info" id="w2" type="button">Submit</button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+  <section>
+    <div class="page-header" id="faq">
+    <h2>FAQ</h2>
+  </div><!--End page header -->
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+              How does the website work?
+            </a>
+          </div><!-- end panel title -->
+          <div id="collapse-1" class="panel-collapse collapse ">
+            <div class="panel-body">
+              Enter the name of a cafe or restaurant e.g. Cafe Express and the result will show whether or not a plug source is available.
+            </div>
+          </div><!-- End panel collapse -->
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+              What locations are currently available on the website?
+            </a>
+          </div><!-- end panel title -->
+          <div id="collapse-2" class="panel-collapse collapse">
+            <div class="panel-body">
+              Galway city centre.
+            </div>
+          </div><!-- End panel collapse -->
+    </div>
+  </div>
+
+  
+</div><!--End panel group -->
+</section>
+</div><!-- end container -->
+
+
+ 
+
+  <div class="container">
+    <section>
+      <div class="page-header" id="gallery">
+        <h2>Gallery</h2>
+  </div>
+
+  <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+      <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img class="img-responsive" src="images/cafeexpress.png" alt="Text">
+      </div>
+      <div class="item">
+        <img src="images/junglecafe.jpg" alt="Text">
+      </div>
+      <div class="item">
+        <img src="images/coffee.jpg" alt="Text">
+      </div>
+    </div>
+  </div>
+
+</section>
+</div>
+
+
+<div class="container">
+  <section>
+    <div class="page-header" id="contact">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-left">
+        <form id="contactform" class="form-horizontal" action="https://formspree.io/plugit8666@gmail.com" method="POST">
+          <div class="form-group">
+            <label for="user-name" class="col-lg-2 control-label">Name</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="target1" name="user-name" placeholder="Enter your name" required="" ><span class="error_form" id="username_error_message"></span>
+      </div>
+    </div>
+
+
+          <div class="form-group">
+            <label for="user-email" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="target2" name="user-email" placeholder="Enter your email address" required=""><span class="error_form" id="email_error_message"></span>
+      </div>
+    </div>
+
+
+
+      <div class="form-group">
+            <label for="user-message" class="col-lg-2 control-label">
+              Message
+            </label>
+            <div class="col-lg-10">
+              <textarea name="user-message" id="target3" class="form-control" cols="20" rows="10" placeholder="Enter your message" required=""></textarea>
+            </div>
+          </div> <!-- end form group -->
+
+                   <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <input type="submit" id="send" class="btn btn-info" value="Send">
+                    </div>
+                   </div>
+               </form>
+           </div>
+</div>
+</section>
+</div>

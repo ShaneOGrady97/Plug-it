@@ -1,0 +1,207 @@
+
+body {
+  background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+span {
+	color: red;
+}
+
+.swal-overlay {
+	background-color: rgba(43, 165, 137, 0.45);
+}
+
+.swal-button {
+	background-color: #4962B3;
+}
+
+
+.well{
+  padding-top: 5%;
+  margin-top: 5%;
+}
+
+
+.jumbotron{
+	padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("https://i.ytimg.com/vi/GTfUSllTpZ4/maxresdefault.jpg");
+    background-size: cover;
+    color: white;
+    min-height: 400px;
+}
+
+.item{
+	text-align: center;
+	overflow: hidden;
+}
+
+.item img{
+	width:1000px;
+	height: auto;
+	overflow: hidden;
+}
+
+.jumbotron1 {
+padding-top 0px; 
+padding-bottom 0px; 
+padding-right: 0px; 
+padding-left 0px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+	color: white;
+	font-family: 'Lobster';
+}
+
+h3 {
+	color: #95a5a6;
+	font-weight: 400;
+}
+
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+	font-family: 'Lobster';
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background: black;
+    margin-left: 12em;
+    margin-right: 12em;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar-default {
+	background-color: #3498db;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-control {
+	height: 42px;
+	font-size: 18px;
+	width: 280px;
+	padding-top 0px; 
+	padding-right 0px; 
+	padding-bottom 0px; 
+	padding-left 0px;
+	border-top 0px;
+	border-right 0px;
+	border-bottom 0px;
+	border-left 0pc;
+	margin-top 0px;
+	margin-right 0px;
+	margin-bottom 0px;
+	margin-left 0px;
+}
+
+i {
+	margin: 8px;
+	color: #3498db; 
+}
+
+
+/* HeaderWrap */
+#headerwrap {
+	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background-color: #3498db;
+	margin-top: -20px;
+	padding-top:200px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 60px;
+	margin-bottom: 15px;
+	color: white;
+	font-size: 45px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
