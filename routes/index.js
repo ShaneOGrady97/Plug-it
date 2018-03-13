@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var Comment = require('../models/comments');
-//var jwt = require('jsonwebtoken');
+var jwt = require('jsonwebtoken');
 
 
 
