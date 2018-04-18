@@ -72,12 +72,7 @@ router.get('/feed', function(req, res, next) {
             res.render('feed');
         }
     }catch (err) {
-            res.json({
-                "status": "error",
-                "body": [
-                    "You are not logged in."
-                ]
-            });
+            res.render('login');
         }
 });
 
