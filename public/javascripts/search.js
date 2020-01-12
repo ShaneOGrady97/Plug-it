@@ -15,7 +15,7 @@ $( document ).ready(function() {
     var str = $("#w1").val().toLowerCase();
     str = str.replace(/\s+/g, '');
 
-    var str2 = "This is not a cafe";
+    var str2 = "This is not a cafe in Galway";
     var str3 = "This cafe does have a plug source";
     var str4 = "This cafe does not have a plug source";
 
